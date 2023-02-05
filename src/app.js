@@ -24,6 +24,6 @@ app.get("/",(req,res)=>{
 app.get("/about",(req,res)=>{
     res.send("<h1>Hello from about page of express .....</h1>");
 });
-app.listen(8000,()=>{
+app.listen(8000,()=>{   
     console.log("Listening at post 8000");
 });
