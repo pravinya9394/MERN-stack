@@ -9,6 +9,8 @@
   "author": "Pravinya Kumbhare",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "pug": "^3.0.2",
     "requests": "^0.3.0"
   }
 }
