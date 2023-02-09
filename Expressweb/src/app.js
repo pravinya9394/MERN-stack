@@ -18,7 +18,7 @@ app.get("/",(req,res)=>{
     res.render("index");
 });
 
-// ABPUT PAGE
+// ABOUT PAGE
 app.get("/about",(req,res)=>{
     res.render("about");
 });
