@@ -25,14 +25,16 @@ app.get("/about",(req,res)=>{
 
 // WEATHER PAGE
 app.get("/weather",(req,res)=>{
-    res.send("Welcome to Weather page");
+    res.render("weather");
 });
 
 // 404 error page
 app.get("*",(req,res)=>{
-    res.send("404 ERROR,Oop's Page not found...");
+    res.render("404error",{
+        errorMsg:"Oop's page not found..."
+    });
 });
-
+// Contact us page
 
 app.listen(8000,()=>{
     console.log(`Running on port ${port}`)
